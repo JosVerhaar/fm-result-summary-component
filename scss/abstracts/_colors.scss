@@ -1,12 +1,17 @@
 $colors: (
-  neutral: (
-    900: #212121,
-    400: #5C5C5C,
-    200: #F8F8F8,
-    100: #FFFFFF,
+  neutral: (900: hsl(224, 30%, 27%),
+    400: hsl(241, 100%, 89%),
+    200: hsl(221, 100%, 96%),
+    100: hsl(0, 0%, 100%),
   ),
-  primary: (
-    400: #FF6635,
-    500: #DD4E11,
+  primary: (400: hsl(234, 85%, 45%),
+    300: hsl(39, 100%, 56%),
+    200: hsl(0, 100%, 67%),
+    100: hsl(166, 100%, 37%),
   ),
+  gradients: (slate-blue-bg: hsl(252, 100%, 67%),
+    royal-blue-bg: hsl(241, 81%, 54%),
+    violet-blue-circle: hsla(256, 72%, 46%, 1),
+    persian-blue-circle: hsla(241, 72%, 46%, 0),
+  )
 );
